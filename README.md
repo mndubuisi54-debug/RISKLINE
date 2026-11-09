@@ -108,6 +108,8 @@ The bot is long-only and holds one position at a time.
 
 Riskline running on the simulated market (`--source sim`), sped up. Paper money only.
 
+https://github.com/user-attachments/assets/1f62ded0-1451-44fb-9656-faf476cdffaa
+
 
 ## Adding your own strategy
 
