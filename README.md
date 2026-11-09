@@ -6,6 +6,19 @@ Riskline is a small Python trading bot that watches **real live prices** and tra
 
 It can't trade real money. The local paper broker only simulates fills, and the Alpaca connector is hard-wired to Alpaca's *paper* endpoint.
 
+# Riskline
+
+![Riskline running in VS Code](docs/ri.png)
+![Riskline running in VS Code](docs/sk.png)
+![Riskline running in VS Code](docs/cs.png)
+
+## Demo
+
+Riskline running on the simulated market (`--source sim`), sped up. Paper money only.
+
+https://github.com/user-attachments/assets/1f62ded0-1451-44fb-9656-faf476cdffaa
+
+
 ## Requirements
 
 - Python 3.10 or newer
@@ -97,19 +110,6 @@ The bot is long-only and holds one position at a time.
 - `feeds.py`: price sources (simulated, Binance, Coinbase, Alpaca)
 - `brokers.py`: the local paper broker and the Alpaca paper broker
 - `test_bot.py`: offline tests
-
-# Riskline
-
-![Riskline running in VS Code](docs/ri.png)
-![Riskline running in VS Code](docs/sk.png)
-![Riskline running in VS Code](docs/cs.png)
-
-## Demo
-
-Riskline running on the simulated market (`--source sim`), sped up. Paper money only.
-
-https://github.com/user-attachments/assets/1f62ded0-1451-44fb-9656-faf476cdffaa
-
 
 ## Adding your own strategy
 
