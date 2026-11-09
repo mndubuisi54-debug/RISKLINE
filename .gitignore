@@ -1,0 +1,14 @@
+# Paper-trading saves and trade logs (personal, change constantly)
+state/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets: never commit API keys
+.env
+*.key
+
+# Editor / OS clutter
+.vscode/
+.DS_Store
